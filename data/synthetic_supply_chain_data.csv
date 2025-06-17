@@ -1,0 +1,501 @@
+order_id,region,order_date,actual_delivery_date,delivery_time_days,delay_status,delay_reason
+ORD0001,Pune,2025-04-14,2025-04-17,3,Delayed,Driver Unavailable
+ORD0002,Mumbai,2025-02-17,2025-02-17,0,On-time,
+ORD0003,Pune,2025-05-15,2025-05-16,1,On-time,
+ORD0004,Mumbai,2025-03-10,2025-03-12,2,Delayed,Weather
+ORD0005,Nashik,2025-01-23,2025-01-25,2,Delayed,Driver Unavailable
+ORD0006,Mumbai,2025-04-17,2025-04-20,3,Delayed,Warehouse Issue
+ORD0007,Mumbai,2025-02-14,2025-02-17,3,Delayed,Traffic
+ORD0008,Pune,2025-02-10,2025-02-13,3,Delayed,Warehouse Issue
+ORD0009,Pune,2025-03-02,2025-03-04,2,Delayed,
+ORD0010,Mumbai,2025-04-30,2025-04-30,0,On-time,
+ORD0011,Nashik,2025-02-14,2025-02-17,3,Delayed,Driver Unavailable
+ORD0012,Mumbai,2025-01-16,2025-01-17,1,On-time,
+ORD0013,Nashik,2025-04-15,2025-04-16,1,On-time,
+ORD0014,Pune,2025-04-28,2025-04-30,2,Delayed,Traffic
+ORD0015,Nashik,2025-02-10,2025-02-11,1,On-time,
+ORD0016,Mumbai,2025-02-04,2025-02-07,3,Delayed,
+ORD0017,Mumbai,2025-05-19,2025-05-20,1,On-time,
+ORD0018,Nashik,2025-03-02,2025-03-04,2,Delayed,Driver Unavailable
+ORD0019,Mumbai,2025-02-12,2025-02-14,2,Delayed,
+ORD0020,Nashik,2025-05-14,2025-05-17,3,Delayed,
+ORD0021,Nashik,2025-02-16,2025-02-19,3,Delayed,Traffic
+ORD0022,Nashik,2025-05-05,2025-05-07,2,Delayed,Warehouse Issue
+ORD0023,Pune,2025-01-02,2025-01-02,0,On-time,
+ORD0024,Pune,2025-01-10,2025-01-10,0,On-time,
+ORD0025,Mumbai,2025-03-24,2025-03-27,3,Delayed,Warehouse Issue
+ORD0026,Pune,2025-01-11,2025-01-13,2,Delayed,Driver Unavailable
+ORD0027,Nashik,2025-02-21,2025-02-22,1,On-time,
+ORD0028,Pune,2025-03-18,2025-03-18,0,On-time,
+ORD0029,Nashik,2025-03-26,2025-03-29,3,Delayed,
+ORD0030,Mumbai,2025-05-06,2025-05-08,2,Delayed,Weather
+ORD0031,Nashik,2025-03-22,2025-03-25,3,Delayed,Traffic
+ORD0032,Nashik,2025-04-26,2025-04-29,3,Delayed,Traffic
+ORD0033,Pune,2025-01-07,2025-01-09,2,Delayed,Weather
+ORD0034,Nashik,2025-04-21,2025-04-21,0,On-time,
+ORD0035,Nashik,2025-04-12,2025-04-15,3,Delayed,Warehouse Issue
+ORD0036,Pune,2025-01-04,2025-01-07,3,Delayed,Weather
+ORD0037,Mumbai,2025-02-11,2025-02-14,3,Delayed,Driver Unavailable
+ORD0038,Mumbai,2025-05-17,2025-05-19,2,Delayed,Driver Unavailable
+ORD0039,Nashik,2025-02-05,2025-02-07,2,Delayed,Warehouse Issue
+ORD0040,Pune,2025-01-07,2025-01-08,1,On-time,
+ORD0041,Mumbai,2025-05-29,2025-05-29,0,On-time,
+ORD0042,Nashik,2025-03-28,2025-03-28,0,On-time,
+ORD0043,Mumbai,2025-02-02,2025-02-03,1,On-time,
+ORD0044,Nashik,2025-02-17,2025-02-20,3,Delayed,Warehouse Issue
+ORD0045,Pune,2025-01-01,2025-01-01,0,On-time,
+ORD0046,Nashik,2025-04-18,2025-04-18,0,On-time,
+ORD0047,Pune,2025-02-03,2025-02-03,0,On-time,
+ORD0048,Pune,2025-05-23,2025-05-23,0,On-time,
+ORD0049,Pune,2025-04-24,2025-04-26,2,Delayed,
+ORD0050,Pune,2025-05-19,2025-05-21,2,Delayed,Driver Unavailable
+ORD0051,Mumbai,2025-01-12,2025-01-14,2,Delayed,Warehouse Issue
+ORD0052,Nashik,2025-04-16,2025-04-18,2,Delayed,Warehouse Issue
+ORD0053,Mumbai,2025-01-16,2025-01-18,2,Delayed,Warehouse Issue
+ORD0054,Pune,2025-03-18,2025-03-21,3,Delayed,Weather
+ORD0055,Pune,2025-05-18,2025-05-21,3,Delayed,Weather
+ORD0056,Nashik,2025-02-01,2025-02-01,0,On-time,
+ORD0057,Pune,2025-02-15,2025-02-18,3,Delayed,
+ORD0058,Pune,2025-05-04,2025-05-05,1,On-time,
+ORD0059,Nashik,2025-03-16,2025-03-19,3,Delayed,Traffic
+ORD0060,Mumbai,2025-01-21,2025-01-22,1,On-time,
+ORD0061,Pune,2025-02-26,2025-02-26,0,On-time,
+ORD0062,Nashik,2025-03-09,2025-03-12,3,Delayed,Warehouse Issue
+ORD0063,Nashik,2025-04-02,2025-04-02,0,On-time,
+ORD0064,Pune,2025-02-23,2025-02-23,0,On-time,
+ORD0065,Mumbai,2025-02-25,2025-02-27,2,Delayed,Driver Unavailable
+ORD0066,Mumbai,2025-04-08,2025-04-11,3,Delayed,Warehouse Issue
+ORD0067,Nashik,2025-02-22,2025-02-22,0,On-time,
+ORD0068,Pune,2025-04-25,2025-04-27,2,Delayed,Driver Unavailable
+ORD0069,Nashik,2025-04-15,2025-04-18,3,Delayed,
+ORD0070,Nashik,2025-01-18,2025-01-18,0,On-time,
+ORD0071,Nashik,2025-02-28,2025-03-02,2,Delayed,
+ORD0072,Nashik,2025-02-21,2025-02-24,3,Delayed,Warehouse Issue
+ORD0073,Pune,2025-02-21,2025-02-21,0,On-time,
+ORD0074,Mumbai,2025-01-29,2025-01-29,0,On-time,
+ORD0075,Mumbai,2025-04-13,2025-04-15,2,Delayed,
+ORD0076,Pune,2025-02-08,2025-02-09,1,On-time,
+ORD0077,Mumbai,2025-04-28,2025-04-30,2,Delayed,
+ORD0078,Mumbai,2025-05-26,2025-05-29,3,Delayed,Traffic
+ORD0079,Mumbai,2025-02-08,2025-02-11,3,Delayed,
+ORD0080,Nashik,2025-03-12,2025-03-12,0,On-time,
+ORD0081,Pune,2025-01-13,2025-01-16,3,Delayed,Warehouse Issue
+ORD0082,Pune,2025-05-11,2025-05-13,2,Delayed,Weather
+ORD0083,Nashik,2025-02-07,2025-02-09,2,Delayed,Traffic
+ORD0084,Pune,2025-02-05,2025-02-06,1,On-time,
+ORD0085,Mumbai,2025-05-22,2025-05-25,3,Delayed,Weather
+ORD0086,Pune,2025-05-21,2025-05-24,3,Delayed,Weather
+ORD0087,Pune,2025-05-05,2025-05-05,0,On-time,
+ORD0088,Mumbai,2025-03-01,2025-03-03,2,Delayed,Weather
+ORD0089,Mumbai,2025-04-05,2025-04-07,2,Delayed,Traffic
+ORD0090,Mumbai,2025-02-14,2025-02-16,2,Delayed,Driver Unavailable
+ORD0091,Nashik,2025-04-27,2025-04-30,3,Delayed,
+ORD0092,Mumbai,2025-01-08,2025-01-08,0,On-time,
+ORD0093,Nashik,2025-01-19,2025-01-19,0,On-time,
+ORD0094,Pune,2025-02-13,2025-02-16,3,Delayed,Warehouse Issue
+ORD0095,Pune,2025-04-12,2025-04-14,2,Delayed,Driver Unavailable
+ORD0096,Nashik,2025-05-20,2025-05-21,1,On-time,
+ORD0097,Nashik,2025-05-16,2025-05-18,2,Delayed,Warehouse Issue
+ORD0098,Mumbai,2025-03-31,2025-04-03,3,Delayed,Traffic
+ORD0099,Nashik,2025-02-21,2025-02-24,3,Delayed,Warehouse Issue
+ORD0100,Mumbai,2025-05-14,2025-05-17,3,Delayed,Warehouse Issue
+ORD0101,Pune,2025-03-04,2025-03-07,3,Delayed,
+ORD0102,Mumbai,2025-02-05,2025-02-07,2,Delayed,Driver Unavailable
+ORD0103,Mumbai,2025-01-08,2025-01-08,0,On-time,
+ORD0104,Mumbai,2025-04-16,2025-04-16,0,On-time,
+ORD0105,Nashik,2025-05-16,2025-05-18,2,Delayed,Weather
+ORD0106,Mumbai,2025-01-07,2025-01-09,2,Delayed,Traffic
+ORD0107,Nashik,2025-05-03,2025-05-04,1,On-time,
+ORD0108,Nashik,2025-03-07,2025-03-09,2,Delayed,Warehouse Issue
+ORD0109,Pune,2025-02-26,2025-03-01,3,Delayed,Traffic
+ORD0110,Pune,2025-01-13,2025-01-14,1,On-time,
+ORD0111,Nashik,2025-03-15,2025-03-17,2,Delayed,Warehouse Issue
+ORD0112,Pune,2025-05-26,2025-05-29,3,Delayed,Warehouse Issue
+ORD0113,Mumbai,2025-01-31,2025-01-31,0,On-time,
+ORD0114,Mumbai,2025-04-26,2025-04-28,2,Delayed,Weather
+ORD0115,Pune,2025-03-05,2025-03-06,1,On-time,
+ORD0116,Mumbai,2025-05-29,2025-05-31,2,Delayed,
+ORD0117,Pune,2025-04-07,2025-04-07,0,On-time,
+ORD0118,Pune,2025-02-24,2025-02-25,1,On-time,
+ORD0119,Pune,2025-04-08,2025-04-08,0,On-time,
+ORD0120,Pune,2025-05-03,2025-05-06,3,Delayed,Weather
+ORD0121,Pune,2025-05-16,2025-05-16,0,On-time,
+ORD0122,Mumbai,2025-03-17,2025-03-17,0,On-time,
+ORD0123,Nashik,2025-01-10,2025-01-10,0,On-time,
+ORD0124,Nashik,2025-01-10,2025-01-12,2,Delayed,Weather
+ORD0125,Mumbai,2025-02-01,2025-02-04,3,Delayed,Weather
+ORD0126,Pune,2025-03-06,2025-03-06,0,On-time,
+ORD0127,Nashik,2025-04-24,2025-04-24,0,On-time,
+ORD0128,Mumbai,2025-05-18,2025-05-19,1,On-time,
+ORD0129,Nashik,2025-05-23,2025-05-26,3,Delayed,Weather
+ORD0130,Nashik,2025-04-18,2025-04-21,3,Delayed,Driver Unavailable
+ORD0131,Pune,2025-04-07,2025-04-07,0,On-time,
+ORD0132,Nashik,2025-01-13,2025-01-14,1,On-time,
+ORD0133,Mumbai,2025-02-27,2025-03-02,3,Delayed,Traffic
+ORD0134,Mumbai,2025-03-05,2025-03-07,2,Delayed,Traffic
+ORD0135,Mumbai,2025-02-20,2025-02-20,0,On-time,
+ORD0136,Mumbai,2025-03-05,2025-03-08,3,Delayed,
+ORD0137,Mumbai,2025-01-10,2025-01-11,1,On-time,
+ORD0138,Pune,2025-01-02,2025-01-04,2,Delayed,Warehouse Issue
+ORD0139,Pune,2025-01-27,2025-01-27,0,On-time,
+ORD0140,Nashik,2025-03-15,2025-03-17,2,Delayed,Traffic
+ORD0141,Mumbai,2025-04-27,2025-04-30,3,Delayed,
+ORD0142,Mumbai,2025-02-10,2025-02-13,3,Delayed,Warehouse Issue
+ORD0143,Nashik,2025-05-30,2025-06-01,2,Delayed,Weather
+ORD0144,Mumbai,2025-05-08,2025-05-09,1,On-time,
+ORD0145,Nashik,2025-03-29,2025-03-29,0,On-time,
+ORD0146,Mumbai,2025-04-07,2025-04-09,2,Delayed,Driver Unavailable
+ORD0147,Nashik,2025-02-12,2025-02-15,3,Delayed,Driver Unavailable
+ORD0148,Mumbai,2025-02-28,2025-03-03,3,Delayed,Driver Unavailable
+ORD0149,Pune,2025-03-05,2025-03-06,1,On-time,
+ORD0150,Pune,2025-01-04,2025-01-07,3,Delayed,Warehouse Issue
+ORD0151,Mumbai,2025-02-13,2025-02-14,1,On-time,
+ORD0152,Pune,2025-01-06,2025-01-08,2,Delayed,Weather
+ORD0153,Nashik,2025-03-15,2025-03-17,2,Delayed,
+ORD0154,Nashik,2025-05-09,2025-05-11,2,Delayed,Weather
+ORD0155,Nashik,2025-02-01,2025-02-03,2,Delayed,Driver Unavailable
+ORD0156,Nashik,2025-02-25,2025-02-26,1,On-time,
+ORD0157,Nashik,2025-01-20,2025-01-20,0,On-time,
+ORD0158,Nashik,2025-03-15,2025-03-16,1,On-time,
+ORD0159,Pune,2025-01-04,2025-01-06,2,Delayed,
+ORD0160,Nashik,2025-03-27,2025-03-28,1,On-time,
+ORD0161,Pune,2025-01-14,2025-01-15,1,On-time,
+ORD0162,Pune,2025-05-08,2025-05-09,1,On-time,
+ORD0163,Pune,2025-05-16,2025-05-18,2,Delayed,Warehouse Issue
+ORD0164,Pune,2025-05-19,2025-05-20,1,On-time,
+ORD0165,Nashik,2025-01-16,2025-01-16,0,On-time,
+ORD0166,Pune,2025-04-23,2025-04-23,0,On-time,
+ORD0167,Nashik,2025-04-05,2025-04-05,0,On-time,
+ORD0168,Nashik,2025-04-19,2025-04-19,0,On-time,
+ORD0169,Mumbai,2025-04-20,2025-04-21,1,On-time,
+ORD0170,Mumbai,2025-04-27,2025-04-27,0,On-time,
+ORD0171,Pune,2025-02-25,2025-02-28,3,Delayed,Driver Unavailable
+ORD0172,Nashik,2025-01-08,2025-01-09,1,On-time,
+ORD0173,Pune,2025-05-28,2025-05-29,1,On-time,
+ORD0174,Mumbai,2025-01-28,2025-01-31,3,Delayed,Weather
+ORD0175,Pune,2025-05-28,2025-05-28,0,On-time,
+ORD0176,Nashik,2025-03-20,2025-03-23,3,Delayed,Traffic
+ORD0177,Pune,2025-02-08,2025-02-08,0,On-time,
+ORD0178,Nashik,2025-01-16,2025-01-19,3,Delayed,Weather
+ORD0179,Pune,2025-03-26,2025-03-28,2,Delayed,Traffic
+ORD0180,Nashik,2025-01-29,2025-01-30,1,On-time,
+ORD0181,Pune,2025-05-29,2025-05-31,2,Delayed,Driver Unavailable
+ORD0182,Pune,2025-02-02,2025-02-05,3,Delayed,
+ORD0183,Nashik,2025-03-18,2025-03-18,0,On-time,
+ORD0184,Nashik,2025-02-01,2025-02-04,3,Delayed,Warehouse Issue
+ORD0185,Pune,2025-01-02,2025-01-05,3,Delayed,Warehouse Issue
+ORD0186,Mumbai,2025-01-17,2025-01-19,2,Delayed,Warehouse Issue
+ORD0187,Nashik,2025-04-20,2025-04-20,0,On-time,
+ORD0188,Mumbai,2025-02-11,2025-02-11,0,On-time,
+ORD0189,Mumbai,2025-01-08,2025-01-09,1,On-time,
+ORD0190,Pune,2025-05-21,2025-05-23,2,Delayed,Weather
+ORD0191,Pune,2025-01-30,2025-02-02,3,Delayed,Warehouse Issue
+ORD0192,Pune,2025-01-30,2025-01-30,0,On-time,
+ORD0193,Mumbai,2025-01-10,2025-01-13,3,Delayed,Traffic
+ORD0194,Nashik,2025-04-20,2025-04-21,1,On-time,
+ORD0195,Pune,2025-02-23,2025-02-26,3,Delayed,
+ORD0196,Nashik,2025-04-01,2025-04-01,0,On-time,
+ORD0197,Mumbai,2025-01-29,2025-01-31,2,Delayed,
+ORD0198,Mumbai,2025-05-15,2025-05-15,0,On-time,
+ORD0199,Pune,2025-02-21,2025-02-23,2,Delayed,Driver Unavailable
+ORD0200,Pune,2025-03-21,2025-03-21,0,On-time,
+ORD0201,Pune,2025-03-20,2025-03-20,0,On-time,
+ORD0202,Nashik,2025-04-22,2025-04-25,3,Delayed,
+ORD0203,Pune,2025-03-05,2025-03-05,0,On-time,
+ORD0204,Mumbai,2025-05-15,2025-05-17,2,Delayed,
+ORD0205,Pune,2025-02-20,2025-02-22,2,Delayed,Weather
+ORD0206,Mumbai,2025-01-07,2025-01-07,0,On-time,
+ORD0207,Mumbai,2025-03-28,2025-03-28,0,On-time,
+ORD0208,Mumbai,2025-01-13,2025-01-14,1,On-time,
+ORD0209,Nashik,2025-02-28,2025-03-01,1,On-time,
+ORD0210,Pune,2025-05-30,2025-06-02,3,Delayed,Warehouse Issue
+ORD0211,Pune,2025-04-01,2025-04-02,1,On-time,
+ORD0212,Mumbai,2025-04-02,2025-04-03,1,On-time,
+ORD0213,Pune,2025-02-21,2025-02-24,3,Delayed,
+ORD0214,Pune,2025-03-28,2025-03-30,2,Delayed,
+ORD0215,Nashik,2025-01-14,2025-01-16,2,Delayed,Traffic
+ORD0216,Pune,2025-02-05,2025-02-08,3,Delayed,Warehouse Issue
+ORD0217,Pune,2025-01-20,2025-01-20,0,On-time,
+ORD0218,Nashik,2025-02-21,2025-02-22,1,On-time,
+ORD0219,Mumbai,2025-01-01,2025-01-04,3,Delayed,Weather
+ORD0220,Nashik,2025-04-14,2025-04-16,2,Delayed,Traffic
+ORD0221,Nashik,2025-04-05,2025-04-07,2,Delayed,Warehouse Issue
+ORD0222,Nashik,2025-05-13,2025-05-14,1,On-time,
+ORD0223,Nashik,2025-01-10,2025-01-11,1,On-time,
+ORD0224,Nashik,2025-05-05,2025-05-06,1,On-time,
+ORD0225,Pune,2025-05-27,2025-05-29,2,Delayed,Weather
+ORD0226,Pune,2025-04-13,2025-04-16,3,Delayed,Traffic
+ORD0227,Mumbai,2025-05-13,2025-05-16,3,Delayed,Driver Unavailable
+ORD0228,Mumbai,2025-03-20,2025-03-22,2,Delayed,Weather
+ORD0229,Nashik,2025-01-28,2025-01-31,3,Delayed,Driver Unavailable
+ORD0230,Mumbai,2025-03-02,2025-03-05,3,Delayed,Traffic
+ORD0231,Mumbai,2025-05-29,2025-05-31,2,Delayed,Driver Unavailable
+ORD0232,Nashik,2025-03-13,2025-03-15,2,Delayed,Driver Unavailable
+ORD0233,Mumbai,2025-01-26,2025-01-29,3,Delayed,Warehouse Issue
+ORD0234,Pune,2025-05-02,2025-05-05,3,Delayed,Weather
+ORD0235,Nashik,2025-03-20,2025-03-23,3,Delayed,Warehouse Issue
+ORD0236,Nashik,2025-04-19,2025-04-21,2,Delayed,Weather
+ORD0237,Mumbai,2025-03-02,2025-03-03,1,On-time,
+ORD0238,Mumbai,2025-01-18,2025-01-18,0,On-time,
+ORD0239,Pune,2025-02-25,2025-02-28,3,Delayed,Warehouse Issue
+ORD0240,Pune,2025-04-27,2025-04-30,3,Delayed,
+ORD0241,Pune,2025-03-11,2025-03-12,1,On-time,
+ORD0242,Mumbai,2025-01-07,2025-01-08,1,On-time,
+ORD0243,Mumbai,2025-04-11,2025-04-13,2,Delayed,
+ORD0244,Mumbai,2025-01-02,2025-01-05,3,Delayed,Warehouse Issue
+ORD0245,Mumbai,2025-03-31,2025-04-01,1,On-time,
+ORD0246,Mumbai,2025-04-17,2025-04-19,2,Delayed,Traffic
+ORD0247,Pune,2025-05-22,2025-05-25,3,Delayed,
+ORD0248,Nashik,2025-04-04,2025-04-07,3,Delayed,Driver Unavailable
+ORD0249,Mumbai,2025-02-12,2025-02-13,1,On-time,
+ORD0250,Pune,2025-01-17,2025-01-19,2,Delayed,Traffic
+ORD0251,Nashik,2025-05-28,2025-05-30,2,Delayed,Traffic
+ORD0252,Pune,2025-05-27,2025-05-28,1,On-time,
+ORD0253,Pune,2025-03-06,2025-03-09,3,Delayed,Traffic
+ORD0254,Nashik,2025-04-25,2025-04-27,2,Delayed,Weather
+ORD0255,Mumbai,2025-04-14,2025-04-17,3,Delayed,Traffic
+ORD0256,Mumbai,2025-03-20,2025-03-20,0,On-time,
+ORD0257,Nashik,2025-04-22,2025-04-25,3,Delayed,
+ORD0258,Mumbai,2025-01-11,2025-01-11,0,On-time,
+ORD0259,Mumbai,2025-02-15,2025-02-16,1,On-time,
+ORD0260,Mumbai,2025-03-23,2025-03-24,1,On-time,
+ORD0261,Pune,2025-02-09,2025-02-12,3,Delayed,Traffic
+ORD0262,Mumbai,2025-01-10,2025-01-10,0,On-time,
+ORD0263,Pune,2025-01-01,2025-01-03,2,Delayed,Weather
+ORD0264,Pune,2025-03-08,2025-03-10,2,Delayed,Warehouse Issue
+ORD0265,Mumbai,2025-02-24,2025-02-24,0,On-time,
+ORD0266,Mumbai,2025-03-13,2025-03-16,3,Delayed,Driver Unavailable
+ORD0267,Pune,2025-01-31,2025-02-03,3,Delayed,
+ORD0268,Nashik,2025-01-30,2025-01-30,0,On-time,
+ORD0269,Nashik,2025-04-16,2025-04-18,2,Delayed,Warehouse Issue
+ORD0270,Nashik,2025-05-11,2025-05-13,2,Delayed,Driver Unavailable
+ORD0271,Mumbai,2025-01-23,2025-01-25,2,Delayed,Warehouse Issue
+ORD0272,Pune,2025-04-24,2025-04-27,3,Delayed,Warehouse Issue
+ORD0273,Pune,2025-05-15,2025-05-16,1,On-time,
+ORD0274,Pune,2025-04-25,2025-04-25,0,On-time,
+ORD0275,Pune,2025-05-23,2025-05-24,1,On-time,
+ORD0276,Mumbai,2025-01-11,2025-01-12,1,On-time,
+ORD0277,Mumbai,2025-03-31,2025-04-01,1,On-time,
+ORD0278,Mumbai,2025-04-06,2025-04-08,2,Delayed,Warehouse Issue
+ORD0279,Nashik,2025-01-18,2025-01-20,2,Delayed,
+ORD0280,Pune,2025-04-17,2025-04-18,1,On-time,
+ORD0281,Pune,2025-01-30,2025-02-01,2,Delayed,Driver Unavailable
+ORD0282,Pune,2025-02-20,2025-02-23,3,Delayed,Warehouse Issue
+ORD0283,Pune,2025-05-07,2025-05-09,2,Delayed,Warehouse Issue
+ORD0284,Pune,2025-04-14,2025-04-14,0,On-time,
+ORD0285,Mumbai,2025-04-07,2025-04-10,3,Delayed,Driver Unavailable
+ORD0286,Nashik,2025-03-15,2025-03-17,2,Delayed,Driver Unavailable
+ORD0287,Pune,2025-01-23,2025-01-23,0,On-time,
+ORD0288,Nashik,2025-05-21,2025-05-23,2,Delayed,Driver Unavailable
+ORD0289,Pune,2025-01-25,2025-01-26,1,On-time,
+ORD0290,Nashik,2025-05-24,2025-05-27,3,Delayed,Weather
+ORD0291,Pune,2025-03-07,2025-03-08,1,On-time,
+ORD0292,Mumbai,2025-03-10,2025-03-13,3,Delayed,Weather
+ORD0293,Mumbai,2025-02-27,2025-02-27,0,On-time,
+ORD0294,Mumbai,2025-04-21,2025-04-24,3,Delayed,Driver Unavailable
+ORD0295,Pune,2025-02-25,2025-02-26,1,On-time,
+ORD0296,Nashik,2025-02-09,2025-02-11,2,Delayed,Traffic
+ORD0297,Pune,2025-03-18,2025-03-21,3,Delayed,Weather
+ORD0298,Nashik,2025-01-07,2025-01-07,0,On-time,
+ORD0299,Pune,2025-02-09,2025-02-09,0,On-time,
+ORD0300,Pune,2025-04-22,2025-04-22,0,On-time,
+ORD0301,Mumbai,2025-03-21,2025-03-23,2,Delayed,Traffic
+ORD0302,Pune,2025-02-11,2025-02-14,3,Delayed,Driver Unavailable
+ORD0303,Nashik,2025-05-24,2025-05-27,3,Delayed,Traffic
+ORD0304,Nashik,2025-04-03,2025-04-04,1,On-time,
+ORD0305,Pune,2025-03-23,2025-03-25,2,Delayed,Weather
+ORD0306,Nashik,2025-04-17,2025-04-17,0,On-time,
+ORD0307,Pune,2025-05-10,2025-05-11,1,On-time,
+ORD0308,Pune,2025-01-18,2025-01-18,0,On-time,
+ORD0309,Pune,2025-03-13,2025-03-14,1,On-time,
+ORD0310,Nashik,2025-04-05,2025-04-05,0,On-time,
+ORD0311,Nashik,2025-02-06,2025-02-07,1,On-time,
+ORD0312,Pune,2025-04-28,2025-05-01,3,Delayed,Warehouse Issue
+ORD0313,Nashik,2025-03-27,2025-03-30,3,Delayed,
+ORD0314,Mumbai,2025-03-24,2025-03-25,1,On-time,
+ORD0315,Mumbai,2025-03-17,2025-03-19,2,Delayed,Warehouse Issue
+ORD0316,Nashik,2025-05-26,2025-05-28,2,Delayed,Traffic
+ORD0317,Pune,2025-03-30,2025-03-30,0,On-time,
+ORD0318,Nashik,2025-05-10,2025-05-13,3,Delayed,Driver Unavailable
+ORD0319,Pune,2025-03-04,2025-03-07,3,Delayed,Warehouse Issue
+ORD0320,Nashik,2025-01-17,2025-01-18,1,On-time,
+ORD0321,Pune,2025-04-06,2025-04-08,2,Delayed,Driver Unavailable
+ORD0322,Nashik,2025-05-02,2025-05-05,3,Delayed,Weather
+ORD0323,Mumbai,2025-04-07,2025-04-08,1,On-time,
+ORD0324,Nashik,2025-02-01,2025-02-03,2,Delayed,Weather
+ORD0325,Mumbai,2025-02-28,2025-02-28,0,On-time,
+ORD0326,Pune,2025-02-08,2025-02-11,3,Delayed,Warehouse Issue
+ORD0327,Pune,2025-04-15,2025-04-16,1,On-time,
+ORD0328,Mumbai,2025-04-24,2025-04-24,0,On-time,
+ORD0329,Mumbai,2025-03-29,2025-03-29,0,On-time,
+ORD0330,Nashik,2025-01-15,2025-01-16,1,On-time,
+ORD0331,Mumbai,2025-01-26,2025-01-28,2,Delayed,Traffic
+ORD0332,Mumbai,2025-04-03,2025-04-04,1,On-time,
+ORD0333,Pune,2025-02-22,2025-02-22,0,On-time,
+ORD0334,Nashik,2025-05-27,2025-05-29,2,Delayed,Driver Unavailable
+ORD0335,Pune,2025-03-06,2025-03-06,0,On-time,
+ORD0336,Nashik,2025-05-04,2025-05-04,0,On-time,
+ORD0337,Pune,2025-01-06,2025-01-08,2,Delayed,Driver Unavailable
+ORD0338,Nashik,2025-03-24,2025-03-24,0,On-time,
+ORD0339,Nashik,2025-02-10,2025-02-12,2,Delayed,Driver Unavailable
+ORD0340,Nashik,2025-05-12,2025-05-12,0,On-time,
+ORD0341,Nashik,2025-05-26,2025-05-26,0,On-time,
+ORD0342,Nashik,2025-01-18,2025-01-20,2,Delayed,
+ORD0343,Nashik,2025-05-05,2025-05-08,3,Delayed,Traffic
+ORD0344,Nashik,2025-01-20,2025-01-23,3,Delayed,
+ORD0345,Mumbai,2025-04-19,2025-04-22,3,Delayed,Weather
+ORD0346,Pune,2025-01-16,2025-01-16,0,On-time,
+ORD0347,Mumbai,2025-01-25,2025-01-28,3,Delayed,Traffic
+ORD0348,Pune,2025-01-12,2025-01-14,2,Delayed,Driver Unavailable
+ORD0349,Nashik,2025-01-14,2025-01-14,0,On-time,
+ORD0350,Nashik,2025-02-20,2025-02-20,0,On-time,
+ORD0351,Pune,2025-01-09,2025-01-11,2,Delayed,Traffic
+ORD0352,Nashik,2025-05-17,2025-05-19,2,Delayed,Driver Unavailable
+ORD0353,Pune,2025-02-28,2025-02-28,0,On-time,
+ORD0354,Mumbai,2025-05-09,2025-05-09,0,On-time,
+ORD0355,Pune,2025-02-22,2025-02-25,3,Delayed,Warehouse Issue
+ORD0356,Mumbai,2025-01-05,2025-01-07,2,Delayed,
+ORD0357,Pune,2025-04-25,2025-04-25,0,On-time,
+ORD0358,Mumbai,2025-04-08,2025-04-08,0,On-time,
+ORD0359,Pune,2025-05-17,2025-05-20,3,Delayed,Traffic
+ORD0360,Pune,2025-01-03,2025-01-06,3,Delayed,
+ORD0361,Pune,2025-03-07,2025-03-08,1,On-time,
+ORD0362,Pune,2025-03-23,2025-03-24,1,On-time,
+ORD0363,Nashik,2025-04-07,2025-04-07,0,On-time,
+ORD0364,Mumbai,2025-04-30,2025-04-30,0,On-time,
+ORD0365,Pune,2025-03-03,2025-03-05,2,Delayed,Traffic
+ORD0366,Nashik,2025-01-17,2025-01-19,2,Delayed,Driver Unavailable
+ORD0367,Nashik,2025-05-24,2025-05-24,0,On-time,
+ORD0368,Nashik,2025-05-28,2025-05-29,1,On-time,
+ORD0369,Nashik,2025-01-28,2025-01-28,0,On-time,
+ORD0370,Mumbai,2025-03-10,2025-03-10,0,On-time,
+ORD0371,Mumbai,2025-02-22,2025-02-23,1,On-time,
+ORD0372,Mumbai,2025-05-13,2025-05-16,3,Delayed,Weather
+ORD0373,Nashik,2025-05-13,2025-05-13,0,On-time,
+ORD0374,Pune,2025-05-19,2025-05-21,2,Delayed,
+ORD0375,Nashik,2025-03-31,2025-04-02,2,Delayed,
+ORD0376,Pune,2025-01-20,2025-01-23,3,Delayed,Warehouse Issue
+ORD0377,Nashik,2025-02-18,2025-02-18,0,On-time,
+ORD0378,Mumbai,2025-05-10,2025-05-13,3,Delayed,Warehouse Issue
+ORD0379,Pune,2025-04-17,2025-04-18,1,On-time,
+ORD0380,Mumbai,2025-02-27,2025-02-28,1,On-time,
+ORD0381,Pune,2025-02-12,2025-02-14,2,Delayed,Weather
+ORD0382,Pune,2025-05-12,2025-05-15,3,Delayed,Warehouse Issue
+ORD0383,Pune,2025-01-05,2025-01-05,0,On-time,
+ORD0384,Pune,2025-05-01,2025-05-03,2,Delayed,Warehouse Issue
+ORD0385,Mumbai,2025-05-13,2025-05-15,2,Delayed,Warehouse Issue
+ORD0386,Mumbai,2025-04-10,2025-04-13,3,Delayed,
+ORD0387,Pune,2025-03-04,2025-03-04,0,On-time,
+ORD0388,Mumbai,2025-04-07,2025-04-10,3,Delayed,Driver Unavailable
+ORD0389,Mumbai,2025-05-02,2025-05-03,1,On-time,
+ORD0390,Nashik,2025-05-20,2025-05-23,3,Delayed,Traffic
+ORD0391,Pune,2025-04-16,2025-04-16,0,On-time,
+ORD0392,Nashik,2025-04-02,2025-04-03,1,On-time,
+ORD0393,Mumbai,2025-04-02,2025-04-03,1,On-time,
+ORD0394,Mumbai,2025-03-11,2025-03-11,0,On-time,
+ORD0395,Mumbai,2025-04-23,2025-04-24,1,On-time,
+ORD0396,Mumbai,2025-01-01,2025-01-01,0,On-time,
+ORD0397,Mumbai,2025-02-19,2025-02-19,0,On-time,
+ORD0398,Mumbai,2025-04-24,2025-04-26,2,Delayed,Weather
+ORD0399,Mumbai,2025-05-01,2025-05-04,3,Delayed,Driver Unavailable
+ORD0400,Pune,2025-01-06,2025-01-08,2,Delayed,Driver Unavailable
+ORD0401,Pune,2025-01-09,2025-01-11,2,Delayed,Weather
+ORD0402,Nashik,2025-02-18,2025-02-18,0,On-time,
+ORD0403,Pune,2025-05-24,2025-05-26,2,Delayed,Driver Unavailable
+ORD0404,Nashik,2025-05-31,2025-06-02,2,Delayed,Weather
+ORD0405,Mumbai,2025-05-31,2025-05-31,0,On-time,
+ORD0406,Mumbai,2025-02-08,2025-02-11,3,Delayed,Weather
+ORD0407,Pune,2025-02-14,2025-02-17,3,Delayed,Weather
+ORD0408,Nashik,2025-03-24,2025-03-24,0,On-time,
+ORD0409,Nashik,2025-01-28,2025-01-28,0,On-time,
+ORD0410,Mumbai,2025-01-10,2025-01-10,0,On-time,
+ORD0411,Nashik,2025-05-03,2025-05-05,2,Delayed,Driver Unavailable
+ORD0412,Mumbai,2025-02-08,2025-02-11,3,Delayed,Traffic
+ORD0413,Nashik,2025-01-18,2025-01-20,2,Delayed,Driver Unavailable
+ORD0414,Pune,2025-03-17,2025-03-17,0,On-time,
+ORD0415,Mumbai,2025-05-07,2025-05-07,0,On-time,
+ORD0416,Pune,2025-03-23,2025-03-23,0,On-time,
+ORD0417,Mumbai,2025-01-05,2025-01-06,1,On-time,
+ORD0418,Nashik,2025-03-11,2025-03-11,0,On-time,
+ORD0419,Pune,2025-01-20,2025-01-22,2,Delayed,
+ORD0420,Mumbai,2025-01-01,2025-01-02,1,On-time,
+ORD0421,Pune,2025-01-08,2025-01-08,0,On-time,
+ORD0422,Mumbai,2025-01-26,2025-01-29,3,Delayed,Warehouse Issue
+ORD0423,Pune,2025-01-03,2025-01-05,2,Delayed,Weather
+ORD0424,Mumbai,2025-03-05,2025-03-07,2,Delayed,Warehouse Issue
+ORD0425,Mumbai,2025-02-01,2025-02-01,0,On-time,
+ORD0426,Pune,2025-03-25,2025-03-26,1,On-time,
+ORD0427,Pune,2025-03-12,2025-03-12,0,On-time,
+ORD0428,Mumbai,2025-04-17,2025-04-19,2,Delayed,Warehouse Issue
+ORD0429,Pune,2025-02-02,2025-02-02,0,On-time,
+ORD0430,Pune,2025-01-03,2025-01-06,3,Delayed,Driver Unavailable
+ORD0431,Mumbai,2025-01-28,2025-01-29,1,On-time,
+ORD0432,Mumbai,2025-03-15,2025-03-17,2,Delayed,Driver Unavailable
+ORD0433,Pune,2025-02-19,2025-02-21,2,Delayed,
+ORD0434,Mumbai,2025-01-02,2025-01-04,2,Delayed,
+ORD0435,Nashik,2025-03-06,2025-03-06,0,On-time,
+ORD0436,Mumbai,2025-05-29,2025-05-31,2,Delayed,Weather
+ORD0437,Pune,2025-03-27,2025-03-30,3,Delayed,
+ORD0438,Mumbai,2025-03-13,2025-03-13,0,On-time,
+ORD0439,Nashik,2025-05-19,2025-05-19,0,On-time,
+ORD0440,Nashik,2025-01-01,2025-01-04,3,Delayed,Weather
+ORD0441,Nashik,2025-05-27,2025-05-30,3,Delayed,Weather
+ORD0442,Mumbai,2025-02-10,2025-02-11,1,On-time,
+ORD0443,Mumbai,2025-03-03,2025-03-04,1,On-time,
+ORD0444,Pune,2025-01-29,2025-01-30,1,On-time,
+ORD0445,Mumbai,2025-05-05,2025-05-07,2,Delayed,
+ORD0446,Mumbai,2025-02-11,2025-02-12,1,On-time,
+ORD0447,Pune,2025-02-06,2025-02-06,0,On-time,
+ORD0448,Nashik,2025-01-15,2025-01-15,0,On-time,
+ORD0449,Mumbai,2025-04-29,2025-04-29,0,On-time,
+ORD0450,Pune,2025-03-26,2025-03-27,1,On-time,
+ORD0451,Pune,2025-05-18,2025-05-21,3,Delayed,Traffic
+ORD0452,Nashik,2025-05-24,2025-05-26,2,Delayed,
+ORD0453,Nashik,2025-02-24,2025-02-26,2,Delayed,Warehouse Issue
+ORD0454,Nashik,2025-05-12,2025-05-13,1,On-time,
+ORD0455,Mumbai,2025-03-21,2025-03-21,0,On-time,
+ORD0456,Mumbai,2025-03-31,2025-04-03,3,Delayed,
+ORD0457,Nashik,2025-05-28,2025-05-28,0,On-time,
+ORD0458,Mumbai,2025-05-29,2025-05-30,1,On-time,
+ORD0459,Mumbai,2025-02-03,2025-02-03,0,On-time,
+ORD0460,Mumbai,2025-01-13,2025-01-15,2,Delayed,Driver Unavailable
+ORD0461,Mumbai,2025-01-12,2025-01-13,1,On-time,
+ORD0462,Mumbai,2025-02-09,2025-02-10,1,On-time,
+ORD0463,Nashik,2025-02-10,2025-02-13,3,Delayed,Traffic
+ORD0464,Pune,2025-01-29,2025-01-30,1,On-time,
+ORD0465,Mumbai,2025-02-14,2025-02-14,0,On-time,
+ORD0466,Nashik,2025-03-03,2025-03-06,3,Delayed,Traffic
+ORD0467,Mumbai,2025-04-29,2025-04-30,1,On-time,
+ORD0468,Pune,2025-04-19,2025-04-22,3,Delayed,Weather
+ORD0469,Pune,2025-01-06,2025-01-07,1,On-time,
+ORD0470,Mumbai,2025-02-14,2025-02-15,1,On-time,
+ORD0471,Nashik,2025-04-20,2025-04-20,0,On-time,
+ORD0472,Nashik,2025-04-16,2025-04-19,3,Delayed,Weather
+ORD0473,Nashik,2025-01-17,2025-01-18,1,On-time,
+ORD0474,Mumbai,2025-04-03,2025-04-04,1,On-time,
+ORD0475,Nashik,2025-04-14,2025-04-16,2,Delayed,Traffic
+ORD0476,Nashik,2025-01-04,2025-01-07,3,Delayed,Warehouse Issue
+ORD0477,Mumbai,2025-03-14,2025-03-14,0,On-time,
+ORD0478,Pune,2025-05-09,2025-05-11,2,Delayed,
+ORD0479,Pune,2025-05-08,2025-05-08,0,On-time,
+ORD0480,Mumbai,2025-01-09,2025-01-10,1,On-time,
+ORD0481,Mumbai,2025-04-01,2025-04-02,1,On-time,
+ORD0482,Pune,2025-05-07,2025-05-10,3,Delayed,Weather
+ORD0483,Nashik,2025-03-24,2025-03-25,1,On-time,
+ORD0484,Pune,2025-02-04,2025-02-06,2,Delayed,Driver Unavailable
+ORD0485,Nashik,2025-01-14,2025-01-16,2,Delayed,Warehouse Issue
+ORD0486,Mumbai,2025-03-31,2025-04-01,1,On-time,
+ORD0487,Nashik,2025-03-30,2025-04-01,2,Delayed,Traffic
+ORD0488,Nashik,2025-05-29,2025-05-30,1,On-time,
+ORD0489,Mumbai,2025-05-01,2025-05-01,0,On-time,
+ORD0490,Nashik,2025-04-23,2025-04-23,0,On-time,
+ORD0491,Nashik,2025-04-30,2025-05-03,3,Delayed,
+ORD0492,Mumbai,2025-01-28,2025-01-28,0,On-time,
+ORD0493,Mumbai,2025-01-23,2025-01-23,0,On-time,
+ORD0494,Nashik,2025-05-09,2025-05-09,0,On-time,
+ORD0495,Pune,2025-05-28,2025-05-28,0,On-time,
+ORD0496,Pune,2025-03-29,2025-03-30,1,On-time,
+ORD0497,Pune,2025-01-01,2025-01-02,1,On-time,
+ORD0498,Nashik,2025-05-18,2025-05-20,2,Delayed,Weather
+ORD0499,Mumbai,2025-05-31,2025-06-01,1,On-time,
+ORD0500,Nashik,2025-05-18,2025-05-19,1,On-time,

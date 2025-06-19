@@ -1,0 +1,207 @@
+===== Week of 2025-01-05 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-01-05
+    - Total Orders: 14
+    - Average Delivery Days: 1.57
+    - On-Time Delivery Rate: 42.86%
+
+    Insight: The average delivery day for the week was 1.57 days.
+
+===== Week of 2025-01-12 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-01-12
+    - Total Orders: 35
+    - Average Delivery Days: 1.29
+    - On-Time Delivery Rate: 57.14%
+
+    Insight: The average delivery day for the week was 1.29 days.
+
+===== Week of 2025-01-19 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-01-19
+    - Total Orders: 30
+    - Average Delivery Days: 1.27
+    - On-Time Delivery Rate: 56.67%
+
+    Insight: The average delivery day was 1.27 and the average delivery day was 1.27.
+
+===== Week of 2025-01-26 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-01-26
+    - Total Orders: 14
+    - Average Delivery Days: 1.43
+    - On-Time Delivery Rate: 42.86%
+
+    Insight: The average delivery day for the week was 1.43 days.
+
+===== Week of 2025-02-02 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-02-02
+    - Total Orders: 24
+    - Average Delivery Days: 1.17
+    - On-Time Delivery Rate: 62.5%
+
+    Insight: The company's delivery performance was compared to the company's average delivery days.
+
+===== Week of 2025-02-09 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-02-09
+    - Total Orders: 21
+    - Average Delivery Days: 1.62
+    - On-Time Delivery Rate: 42.86%
+
+    Insight: The company's delivery performance was averaging 1.62 days per week.
+
+===== Week of 2025-02-16 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-02-16
+    - Total Orders: 27
+    - Average Delivery Days: 2.0
+    - On-Time Delivery Rate: 37.04%
+
+    Insight: The average delivery day for the week was 2.0 days.
+
+===== Week of 2025-02-23 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-02-23
+    - Total Orders: 23
+    - Average Delivery Days: 1.3
+    - On-Time Delivery Rate: 56.52%
+
+    Insight: The company's delivery performance was 1.3 days on average and 56.52% on time.
+
+===== Week of 2025-03-02 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-03-02
+    - Total Orders: 22
+    - Average Delivery Days: 1.73
+    - On-Time Delivery Rate: 45.45%
+
+    Insight: The company's delivery performance was compared to the company's average delivery days.
+
+===== Week of 2025-03-09 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-03-09
+    - Total Orders: 25
+    - Average Delivery Days: 1.64
+    - On-Time Delivery Rate: 44.0%
+
+    Insight: On-time delivery rates for the week are 44.0%.
+
+===== Week of 2025-03-16 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-03-16
+    - Total Orders: 16
+    - Average Delivery Days: 1.12
+    - On-Time Delivery Rate: 62.5%
+
+    Insight: The average delivery day for the week was 1.12 days.
+
+===== Week of 2025-03-23 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-03-23
+    - Total Orders: 22
+    - Average Delivery Days: 1.41
+    - On-Time Delivery Rate: 40.91%
+
+    Insight: The company's delivery performance was compared to the company's average delivery days.
+
+===== Week of 2025-03-30 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-03-30
+    - Total Orders: 23
+    - Average Delivery Days: 1.26
+    - On-Time Delivery Rate: 65.22%
+
+    Insight: The average delivery day for the week was 1.26 days.
+
+===== Week of 2025-04-06 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-04-06
+    - Total Orders: 19
+    - Average Delivery Days: 1.11
+    - On-Time Delivery Rate: 78.95%
+
+    Insight: The average delivery day for the week was 1.11 - 1.11 - On-time delivery rate was 78.95%
+
+===== Week of 2025-04-13 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-04-13
+    - Total Orders: 17
+    - Average Delivery Days: 1.65
+    - On-Time Delivery Rate: 35.29%
+
+    Insight: The average delivery day was 1.65 days.
+
+===== Week of 2025-04-20 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-04-20
+    - Total Orders: 27
+    - Average Delivery Days: 1.52
+    - On-Time Delivery Rate: 44.44%
+
+    Insight: The average delivery day was 1.52 days.
+
+===== Week of 2025-04-27 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-04-27
+    - Total Orders: 24
+    - Average Delivery Days: 1.42
+    - On-Time Delivery Rate: 50.0%
+
+    Insight: On-time delivery rate: 50.0%
+
+===== Week of 2025-05-04 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-05-04
+    - Total Orders: 19
+    - Average Delivery Days: 1.68
+    - On-Time Delivery Rate: 42.11%
+
+    Insight: The average delivery day for the week was 1.68 days.
+
+===== Week of 2025-05-11 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-05-11
+    - Total Orders: 22
+    - Average Delivery Days: 1.55
+    - On-Time Delivery Rate: 45.45%
+
+    Insight: The average delivery day for the week was 1.55 - 1.55 - On-time delivery rate was 45.45%
+
+===== Week of 2025-05-18 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-05-18
+    - Total Orders: 22
+    - Average Delivery Days: 1.77
+    - On-Time Delivery Rate: 36.36%
+
+    Insight: The average delivery day was 1.77 days.
+
+===== Week of 2025-05-25 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-05-25
+    - Total Orders: 23
+    - Average Delivery Days: 1.78
+    - On-Time Delivery Rate: 39.13%
+
+    Insight: The average delivery day for the week was 1.78 days.
+
+===== Week of 2025-06-01 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-06-01
+    - Total Orders: 29
+    - Average Delivery Days: 1.59
+    - On-Time Delivery Rate: 41.38%
+
+    Insight: The average delivery day for the week was 1.59 days.
+
+===== Week of 2025-06-08 =====
+Weekly Supply Chain Summary:
+    - Week of 2025-06-08
+    - Total Orders: 2
+    - Average Delivery Days: 2.5
+    - On-Time Delivery Rate: 0.0%
+
+    Insight: The average delivery day for the week was 2.5 days.
+

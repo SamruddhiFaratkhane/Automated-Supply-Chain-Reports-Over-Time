@@ -32,7 +32,7 @@ output_path = "../data/weekly_kpis.csv"
 weekly_kpis.to_csv(output_path, index=False)
 print(f"✅ Weekly KPIs saved to: {output_path}")
 
-# (Optional) Visualization
+# Visualization
 sns.set(style="whitegrid")
 plt.figure(figsize=(10, 5))
 sns.lineplot(data=weekly_kpis, x='week', y='on_time_delivery_percent', hue='region')

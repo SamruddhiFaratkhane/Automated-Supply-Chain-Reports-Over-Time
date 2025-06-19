@@ -19,6 +19,10 @@ df = pd.read_csv("data/weekly_grouped_summary.csv")
 output_path = "Outputs/multi_week_summary.txt"
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
+# Output file path
+output_path = "outputs/multi_week_summary.txt"
+os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
 with open(output_path, "w", encoding="utf-8") as f:
     for _, row in df.iterrows():
         week = row['actual_delivery_date']
@@ -49,5 +53,6 @@ Insight:"""
         f.write(f"    - Average Delivery Days: {avg_days}\n")
         f.write(f"    - On-Time Delivery Rate: {on_time}%\n\n")
         f.write(f"    Insight: {insight}\n\n")
+
 
 print(f"✅ Full weekly report with insights saved to {output_path}")

@@ -18,6 +18,7 @@ This project leverages **LLMs** (Language Models) and **interactive visualizatio
 
 ## 📁 Project Structure
 
+```edit
 📦 Automated-Supply-Chain-Reports-Over-Time/
 ├── app.py # Streamlit App
 ├── data/
@@ -39,19 +40,18 @@ This project leverages **LLMs** (Language Models) and **interactive visualizatio
 │ └── on_time_delivery_over_time.html
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 🚀 How to Run
 
 1. Clone the Repo
 git clone https://github.com/SamruddhiFaratkhane/Automated-Supply-Chain-Reports-Over-Time.git
-cd Automated-Supply-Chain-Reports-Over-Time
 
-2️. Install Requirements
+2. Install Requirements
 pip install -r requirements.txt
 
-3️. Run the App
+3. Run the App
 streamlit run app.py
 
 ## 📚 Models Used

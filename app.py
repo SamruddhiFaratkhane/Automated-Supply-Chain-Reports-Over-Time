@@ -30,6 +30,9 @@ if uploaded_file:
     df['actual_delivery_date'] = pd.to_datetime(df['actual_delivery_date'])
     df.sort_values("actual_delivery_date", inplace=True)
 
+    # ✅  Compute Delay %
+    df["delay_percentage"] = 100 - df["on_time_delivery_percent"]
+
     # Section: Week Selector
     st.subheader("📅 Select Week to Analyze")
     weeks = df['actual_delivery_date'].dt.strftime("%Y-%m-%d").tolist()
@@ -38,55 +41,69 @@ if uploaded_file:
 
     # Section: KPI Summary
     st.subheader("📊 Weekly KPI Summary")
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
     col1.metric("📦 Total Orders", int(selected_row['total_orders']))
     col2.metric("🕒 Avg Delivery Days", round(selected_row['avg_delivery_days'], 2))
     col3.metric("✅ On-Time Delivery %", f"{round(selected_row['on_time_delivery_percent'], 2)}%")
-
-    # Section: Insight Generation
-    st.subheader("🧠 Weekly Insight")
-    prompt = f"""
-    Weekly Supply Chain Summary:
-    - Week of {selected_row['actual_delivery_date'].date()}
-    - Total Orders: {selected_row['total_orders']}
-    - Average Delivery Days: {selected_row['avg_delivery_days']}
-    - On-Time Delivery Rate: {selected_row['on_time_delivery_percent']}%
-
-    Insight:
-    """
-    if st.button("Generate Insight"):
-        with st.spinner("Generating summary..."):
-            insight = summarizer(prompt, max_length=100)[0]['generated_text']
-        st.success(insight)
-    else:
-        insight = ""
+    col4.metric("⚠️ Delay %", f"{round(selected_row['delay_percentage'], 2)}%")
 
     # Section: KPI Plots
     st.subheader("📈 KPI Visualizations")
 
     # Plot 1: Total Orders
     fig1 = px.line(df, x='actual_delivery_date', y='total_orders', title="📦 Total Orders Over Time")
-    fig1.add_scatter(x=[selected_row['actual_delivery_date']], y=[selected_row['total_orders']], mode='markers+text',
-                     marker=dict(color='red', size=10), text=["Selected"], textposition="top center")
+    fig1.add_scatter(
+        x=[selected_row['actual_delivery_date']],
+        y=[selected_row['total_orders']],
+        mode='markers+text',
+        marker=dict(color='red', size=10),
+        text=["Selected"],
+        textposition="top center",
+    )
     st.plotly_chart(fig1, use_container_width=True)
 
     # Plot 2: On-Time Delivery
     fig2 = px.line(df, x='actual_delivery_date', y='on_time_delivery_percent', title="✅ On-Time Delivery Rate (%)")
-    fig2.add_scatter(x=[selected_row['actual_delivery_date']], y=[selected_row['on_time_delivery_percent']],
-                     mode='markers+text', marker=dict(color='red', size=10), text=["Selected"], textposition="top center")
+    fig2.add_scatter(
+        x=[selected_row['actual_delivery_date']],
+        y=[selected_row['on_time_delivery_percent']],
+        mode='markers+text',
+        marker=dict(color='red', size=10),
+        text=["Selected"],
+        textposition="top center",
+    )
     st.plotly_chart(fig2, use_container_width=True)
 
     # Plot 3: Avg Delivery Days
     fig3 = px.bar(df, x='actual_delivery_date', y='avg_delivery_days', title="🕒 Average Delivery Days Per Week")
-    fig3.add_scatter(x=[selected_row['actual_delivery_date']], y=[selected_row['avg_delivery_days']],
-                     mode='markers+text', marker=dict(color='red', size=10), text=["Selected"], textposition="top center")
+    fig3.add_scatter(
+        x=[selected_row['actual_delivery_date']],
+        y=[selected_row['avg_delivery_days']],
+        mode='markers+text',
+        marker=dict(color='red', size=10),
+        text=["Selected"],
+        textposition="top center",
+    )
     st.plotly_chart(fig3, use_container_width=True)
+
+    # Plot 4: Delay %
+    fig4 = px.line(df, x='actual_delivery_date', y='delay_percentage', title="⚠️ Delay Percentage Over Time")
+    fig4.add_scatter(
+        x=[selected_row['actual_delivery_date']],
+        y=[selected_row['delay_percentage']],
+        mode='markers+text',
+        marker=dict(color='red', size=10),
+        text=["Selected"],
+        textposition="top center",
+    )
+    st.plotly_chart(fig4, use_container_width=True)
 
     # Save plots as PNG
     os.makedirs("temp_plots", exist_ok=True)
     fig1.write_image("temp_plots/total_orders.png")
     fig2.write_image("temp_plots/on_time_delivery.png")
     fig3.write_image("temp_plots/avg_delivery.png")
+    fig4.write_image("temp_plots/delay_percentage.png")
 
     # Section: Export Report
     st.subheader("📤 Export Report")
@@ -105,15 +122,16 @@ if uploaded_file:
         story.append(Paragraph(f"Total Orders: {int(selected_row['total_orders'])}", styles["Normal"]))
         story.append(Paragraph(f"Avg Delivery Days: {round(selected_row['avg_delivery_days'], 2)}", styles["Normal"]))
         story.append(Paragraph(f"On-Time Delivery %: {round(selected_row['on_time_delivery_percent'], 2)}%", styles["Normal"]))
+        story.append(Paragraph(f"Delay %: {round(selected_row['delay_percentage'], 2)}%", styles["Normal"]))
         story.append(Spacer(1, 12))
 
-        if insight:
-            story.append(Paragraph("📝 Insight", styles["Heading2"]))
-            story.append(Paragraph(insight, styles["Normal"]))
-            story.append(Spacer(1, 12))
-
         # Plots
-        for plot_path in ["temp_plots/total_orders.png", "temp_plots/on_time_delivery.png", "temp_plots/avg_delivery.png"]:
+        for plot_path in [
+            "temp_plots/total_orders.png",
+            "temp_plots/on_time_delivery.png",
+            "temp_plots/avg_delivery.png",
+            "temp_plots/delay_percentage.png",
+        ]:
             story.append(Image(plot_path, width=450, height=250))
             story.append(Spacer(1, 12))
 

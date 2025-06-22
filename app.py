@@ -16,7 +16,7 @@ st.caption("Using Time-Aware LLMs for Dynamic Business Intelligence")
 # Load model
 @st.cache_resource
 def load_model():
-    model_name = "google/flan-t5-base"
+    model_name = "google/flan-t5-small"
     return pipeline("text2text-generation", model=model_name)
 
 summarizer = load_model()
